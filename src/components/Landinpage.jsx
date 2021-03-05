@@ -20,8 +20,8 @@ function Landinpage() {
         <img class="imagen" src="https://cdn.pixabay.com/photo/2020/09/02/03/26/iphone-5537230_960_720.jpg" alt=""/>
         <div class="texto">
         <h1 class="espacio fw-medium">Suscribete a nuestra lista<br />de usuarios preferidos.</h1>
-              <p class="mt-3 mb-4 espacio container__texto__p">Los usuarios que se suscriben a la lista de usuarios preferidos reciben ofertas exclusivas de sus tiendas favoritas, ¿Qué esperas?.</p>
-              
+              <p class="mt-3 mb-4 espacio container__texto__pf">Los usuarios que se suscriben a la lista de usuarios preferidos reciben ofertas exclusivas de sus tiendas favoritas, ¿Qué esperas?.</p>
+              <input class="email" type="email" placeholder="Ingrese su email"/>
               <Link class="btn btn-lg boton_raul hover-top btn-glow espacio"  to="/inicio">Suscribirse</Link>
 
         </div>

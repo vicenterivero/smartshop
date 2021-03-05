@@ -200,6 +200,18 @@ height: auto;
 	transform:scale(1.1);
 	
 }
+.email{
+	
+	font-size: 18px;
+	width: 80%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+	border:var(--secundario) 4px solid;
+	padding: 5px;
+
+}
 .container__img{
 margin: 10px auto;
 width: 60%;
@@ -217,13 +229,20 @@ height: 50%;
 	font-size: 23px;
 	color: var(--gris);
 }
-.container__texto__p{
+.container__texto__pf{
 
-font-size: 25px;
+font-size: 20px;
 margin: 5px 0px;
 color: var(--oscuro);
 
 }
+.container__texto__p{
+
+	font-size: 25px;
+	margin: 5px 0px;
+	color: var(--oscuro);
+	
+	}
 .container__texto__button1{
 text-align: center;
 margin-right: 15px;
