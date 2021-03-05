@@ -15,7 +15,7 @@ function Footer() {
           </div>
           <div class="col-sm-6 newsright">
             <form>
-              <input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required=""></input>
+              <input type="text" value="Email" ></input>
               <input type="submit" value="Enviar"></input>
             </form>
           </div>
@@ -60,7 +60,7 @@ function Footer() {
           </div>
         </div>
         <div class="clearfix"></div>
-        <p class="copy-right">&copy 2016 Smart Shop. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+        <p class="copy-right">Todos los derechos reservados a smartshop | Desarrollado por <a href="http://w3layouts.com/">Carivelo</a></p>
       </div>
     </div>  
         </div>

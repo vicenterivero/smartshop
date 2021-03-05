@@ -8,6 +8,12 @@ import Contador from './components/contador' */
 import Temperatura from './components/Temperatura'
 import Nav from './components/nav'
 import Footer from './components/Footer'
+import Landinpage from './components/Landinpage'
+/* import Inicio from './components/Inicio'
+import nosotros from './components/Footer' */
+import Inicio from './components/Inicio'
+import Departamentos from './components/Departamentos'
+import FormularioContacto from './components/FormularioContacto'
 
 
 
@@ -15,32 +21,32 @@ import Footer from './components/Footer'
 function App() {
   return (
     <Router /* className="App" */>
-
+{/* 
 <Link to="/inicio">inicio</Link>
 <Link to="/departamentos">departamentos</Link>
 <Link to="/sucursales">sucursales</Link>
-<Link to="/mi-lista">mi lista</Link>
+<Link to="/mi-lista">mi lista</Link> */}
  <Nav/>
 
       <Switch>
    
         <Route path="/departamentos">
-         departamentos
+         <Departamentos/>
         </Route>
         <Route path="/sucursales">
          sucursales
         </Route>
-        <Route path="/mi-lista">
-         mi-lista
+        <Route path="/contacto">
+         <FormularioContacto/>
         </Route>
         <Route path="/nosotros">
          nosotros
         </Route>
         <Route path="/inicio">
-         Inicio
+         <Inicio/>
         </Route>
         <Route path="/">
-         landingpage
+         <Landinpage/>
         </Route>
       </Switch>
    {/*    <h1>Hoslsaaa</h1> */}

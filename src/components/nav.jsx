@@ -29,7 +29,7 @@ function nav() {
               <div class="search">
                   <input type="search" value="Buscar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Buscar';}" required=""></input>
               </div>
-            <div class="section_room">
+      {/*       <div class="section_room">
                   <select id="country" onchange="change_country(this.value)" class="frm-field required">
                       <option value="null">All categories</option>
                       <option value="null">Electronics</option>
@@ -38,7 +38,7 @@ function nav() {
                       <option value="AX">Women's Wear</option>
                       <option value="AX">Watches</option>
                   </select>
-              </div> 
+              </div> */} 
               <div class="sear-sub">
                   <input type="submit" value=" "></input>
               </div>
@@ -81,9 +81,10 @@ function nav() {
 
         <li class=" menu__item"><Link to="/departamentos" class="menu__link">Departamentos</Link></li>
         <li class=" menu__item"><Link to="/sucursales" class="menu__link">Sucursales</Link></li>
-        <li class=" menu__item"><Link to="/mi-lista" class="menu__link">Mi lista</Link></li>
-                  <li class=" menu__item"><a class="menu__link" href="/nosotros">Nosotros</a></li>
-                  <li class= " menu__item"><a  class="menu__link" href="#">Perfil</a>
+   {/*      <li class=" menu__item"><Link to="/mi-lista" class="menu__link">Mi lista</Link></li> */}
+                  <li class=" menu__item"><Link to="/nosotros" class="menu__link">Nosotros</Link></li>
+                  <li class=" menu__item"><Link to="/contacto" class="menu__link">Contacto</Link></li>
+                {/*   <li class= " menu__item"><a  class="menu__link" href="#">Perfil</a>
                       <ul class="submenu">
                            <li>
 
@@ -92,7 +93,7 @@ function nav() {
                           </li>
                           <li><a href="/register">registro</a></li>
                       </ul>
-                  </li>
+                  </li> */}
 
         </ul>
       </div>
