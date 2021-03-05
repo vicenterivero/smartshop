@@ -13,8 +13,9 @@ import Landinpage from './components/Landinpage'
 import nosotros from './components/Footer' */
 import Inicio from './components/Inicio'
 import Departamentos from './components/Departamentos'
+import Sucursales from './components/Sucursales'
 import FormularioContacto from './components/FormularioContacto'
-
+import Nosotros from './components/Nosotros'
 
 
 
@@ -34,13 +35,13 @@ function App() {
          <Departamentos/>
         </Route>
         <Route path="/sucursales">
-         sucursales
+         <Sucursales/>
         </Route>
         <Route path="/contacto">
          <FormularioContacto/>
         </Route>
         <Route path="/nosotros">
-         nosotros
+         <Nosotros/>
         </Route>
         <Route path="/inicio">
          <Inicio/>
