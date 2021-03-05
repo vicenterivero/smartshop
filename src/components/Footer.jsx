@@ -65,7 +65,7 @@ function Footer() {
           </div>
         </div>
         <div class="clearfix"></div>
-        <p class="copy-right">©Todos los derechos reservados a smartshop | Desarrollado por <a href="#">Carivelo</a> |<a href=""> Aviso de privacidad</a></p>
+        <p class="copy-right">©Todos los derechos reservados a Smartshop | Desarrollado por <a href="#">Carivelo</a> |<a href=""> Aviso de privacidad</a></p>
       </div>
     </div>  
         </div>
