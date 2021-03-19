@@ -33,6 +33,7 @@ function App() {
    
         <Route path="/departamentos">
          <Departamentos/>
+      
         </Route>
         <Route path="/sucursales">
          <Sucursales/>

@@ -36,9 +36,9 @@ function nav() {
             
           </form>
       </div>
-      <div class="col-md-3 header-right footer-bottom">
+{/*       <div class="col-md-3 header-right footer-bottom">
           <ul>
-              <li><a href="/login" class="use1" /* {{-- data-toggle="modal" data-target="#myModal4" --}} */><span>Login</span></a>
+              <li><a href="/login" class="use1" ><span>Login</span></a>
 
               </li>
 
@@ -47,7 +47,7 @@ function nav() {
               <li><a class="insta" href="#"></a></li>
               <li><a class="you" href="#"></a></li>
           </ul>
-      </div>
+      </div> */}
       <div class="clearfix"></div>
   </div>
 </div>
@@ -72,9 +72,10 @@ function nav() {
 
         <li class=" menu__item"><Link to="/departamentos" class="menu__link">Departamentos</Link></li>
         <li class=" menu__item"><Link to="/sucursales" class="menu__link">Sucursales</Link></li>
+        <li class=" menu__item"><Link to="/contacto" class="menu__link">Mi li sta</Link></li>
    {/*      <li class=" menu__item"><Link to="/mi-lista" class="menu__link">Mi lista</Link></li> */}
                   <li class=" menu__item"><Link to="/nosotros" class="menu__link">Nosotros</Link></li>
-                  <li class=" menu__item"><Link to="/contacto" class="menu__link">Contacto</Link></li>
+                  <li class=" menu__item"><Link to="/contacto" class="menu__link">Login</Link></li>
                 {/*   <li class= " menu__item"><a  class="menu__link" href="#">Perfil</a>
                       <ul class="submenu">
                            <li>
